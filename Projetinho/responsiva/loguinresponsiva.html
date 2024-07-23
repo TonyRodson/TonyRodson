@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle academico</title>
+    <link rel="stylesheet" href="loguinresponsiva.css">
+</head>
+<body>
+    <h1>Cadastro de alunos</h1>
+    <form action="aaa.php" method="post" >
+        matricula: <input type="text" name="matricula"><br>
+        nome: <input type="text" name="nome_aluno"><br>
+        data de nascimento: <input type="text" name="nasc_aluno"><br>
+        sexo: <br>
+        <input type="radio" name="sexo" value="masculino">
+        Masculino <br>
+        <input type="radio" name="sexo" value="feminino">
+        feminino <br>
+        <input class="a" type="submit" value="Entrar" onclick="aaa()">
+    </form>
+   <div id="a"></div>
+
+    <script src="loguinresponsiva.js"></script>
+    <footer>
+        <div id="data_atual"> </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(57, 57, 201);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.a{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+input{
+    margin-top: 40px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+.bu{
+    
+    color: white;
+    background-color: black;
+    width: 100px;
+}
+.cor{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    .a{
+        background-color: red;
+        box-shadow: 3px 3px 10px rgb(255, 255, 255);
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.butao{
+    
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 300px;
+}
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #e62107;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    height: 50px;
+  }
+  
+  button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.253);
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover span {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  

@@ -1,0 +1,3 @@
+function comprar(){
+    location.href='https://produto.mercadolivre.com.br/MLB-2757598386-macbook-air-m1-8gb-ram-256gb-ssd-lacrado-na-caixa-_JM?matt_tool=78126647&matt_word=&matt_source=google&matt_campaign_id=14303413649&matt_ad_group_id=137671951390&matt_match_type=&matt_network=g&matt_device=c&matt_creative=584295662804&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5357696928&matt_product_id=MLB2757598386&matt_product_partition_id=2461277949032&matt_target_id=pla-2461277949032&cq_src=google_ads&cq_cmp=14303413649&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=Cj0KCQjw9vqyBhCKARIsAIIcLMEsmeI5PGl52jJpZkovoSgrMALabgOwqp2suuO2Nb7b1y3yFwEObcMaAqzgEALw_wcB'
+}

@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, header{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -15px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.location{
+    width: 20px;
+    height: 20px;
+}
+input{
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    color: rgba(128, 128, 128, 0.26);
+    text-align: start;
+    font-size: 15px;
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+}
+    
+.paragrafo{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 30px;
+    margin-top: 40px;
+}
+    
+
+
+.cll{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+}
+.maça{
+    width: 60px;
+    height: 60px;
+}
+.direita{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.paragrafo2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.paragrafo3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 13PX;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.book{
+    width: 600px;
+    height: 400px;
+}
+section{
+    margin-top: 100PX;
+    display: flex;
+    justify-content: center;
+}
+.baixo{
+    display: flex;
+    justify-content: center;
+    
+}
+.butao{
+    width: 75px;
+    height: 30px;
+    margin-top: 220px;
+    background-color: rgb(69, 69, 196);
+    margin-left: 100px;
+    color: white;
+    
+}
+.a{
+    margin-bottom: -200px;
+    font-size: 50px;
+    
+    
+}
+.b{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+.carro{
+    width: 30px;
+    height: 30px;
+}
